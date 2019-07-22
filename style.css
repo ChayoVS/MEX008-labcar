@@ -46,7 +46,7 @@ header nav ul li a {
 }
 
 .hero {
-  background-image: url(../LabCar/img/taxi.jpg);
+  background-image: url(img/taxi.jpg);
   background-position: bottom;
   height: 100vh;
   display: flex;
@@ -93,7 +93,7 @@ header nav ul li a {
 }
 
 .conduce {
-  background-image: url(../LabCar/img/conduce.jpg);
+  background-image: url(img/conduce.jpg);
   background-position: center;
   height: 70vh;
 }
