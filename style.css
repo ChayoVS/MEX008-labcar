@@ -1,0 +1,350 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color:pink;
+}
+
+header {
+  width: 100%;
+  margin: auto;
+  background-color: white;
+}
+
+header nav ul {
+  overflow: hidden;
+  list-style: none;
+}
+
+header nav ul li {
+  float: left;
+}
+
+header nav ul li a {
+  color: black;
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.container {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.hero,
+.conduce {
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  background-size: cover;
+}
+
+.hero {
+  background-image: url(../LabCar/img/taxi.jpg);
+  background-position: bottom;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.heroIntro {
+  box-sizing: border-box;
+  background: #f7b617;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 40%;
+  height: 50%;
+  color: white;
+}
+
+.decorate {
+  color: white;
+  background-color: white;
+  border-color: white;
+  height: 5%;
+  width: 30%;
+  size: 5px;
+}
+.division {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.btn {
+  padding: 0.8rem;
+  color: #1c1c1c;
+  background-color: white;
+  border: #f7b617;
+  font-weight: 700;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.conduce {
+  background-image: url(../LabCar/img/conduce.jpg);
+  background-position: center;
+  height: 70vh;
+}
+
+.infoConduce {
+  margin-left: auto;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  color: white;
+}
+
+.infoConduce h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.infoConduce p {
+  font-size: 1rem;
+  margin-bottom: 3rem;
+}
+
+.infoConduce a {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  background-color: #f7b617;
+  color: #000;
+  font-weight: 700;
+  border-radius: 1rem;
+}
+
+.info {
+  background-color: #f7b617;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.infoApp {
+  display: flex;
+  width: 80vw;
+  height: 80vh;
+  border-color: white;
+  border-style: solid;
+  border-width: 0.1rem;
+  justify-content: center;
+  align-items: center;
+  border-left: 0;
+  color: white;
+  font-size: 20px;
+}
+
+.descriptionApp {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.title2 {
+  font-weight: bolder;
+}
+
+.tarifa {
+  background-color: #f7b617;
+  padding: 3rem 0;
+  width: 100%;
+  height: 80vh;
+}
+
+.tarifaDiv {
+  display: flex;
+  margin: 0 auto;
+}
+
+.ruta-tarifa,
+.insertar-mapa {
+  display: block;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.insertar-mapa {
+  border-color: white;
+  border-style: solid;
+  border-width: 0.1rem;
+}
+
+.insertar-mapa iframe {
+  margin: 1rem auto;
+  height: 100%;
+}
+
+.ruta-tarifa input {
+  width: 60%;
+}
+
+.ruta-tarifa a {
+  width: 10vw;
+  margin: 0 auto;
+}
+.ruta-tarifa {
+  padding: 3rem;
+}
+
+.ruta-tarifa label {
+  margin: 2rem 0;
+  display: block;
+}
+
+.ruta-tarifa input {
+  margin-left: 1rem;
+  height: 3rem;
+  width: 35vw;
+  color: white;
+  background-color: #f7b617;
+  border-color: white;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-radius: 0.8rem;
+  padding-left: 1rem;
+}
+
+.ruta-tarifa input::-webkit-input-placeholder {
+  color: white;
+}
+
+.ruta-tarifa a {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem auto;
+  width: 25vw;
+  min-width: 200px;
+}
+
+footer {
+  background-color: #2b2b2b;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+footer #allFoot .elements ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+#allFoot {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.elements {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.stores {
+  margin-top: 10%;
+  margin-right: 10%;
+}
+
+.socialMedia {
+  margin-top: 23%;
+}
+
+/* Modales*/
+
+#modal-registro {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  display: none;
+}
+.iconUser {
+  width: 30px;
+  height: 30px;
+}
+
+.passIcon  {
+  width: 30px;
+  height: 30px;
+}
+.iconClose {
+  margin-left: 140%;
+}
+.user {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.dataClient {
+ height: 30px;
+ border-radius: 20px;
+ background-color: aquamarine;
+ border-color:black;
+ align-items: center;
+}
+.log {
+  width: 100px;
+  height: 30px;
+  border: aquamarine;
+  background-color: #f7b617;
+}
+.here {
+  text-decoration: none;
+  color: red;
+}
+.lineUser {
+  border-top: 1px solid black;
+  width: 90%;
+}
+
+.login-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgUser {
+  width: 200px;
+  height: 200px;
+}
+
+#modal-conductor {
+width: 50%;
+background-color: gray;
+display: none;
+}
+
+
+/* intento responsive */
+
+/* @media only screen and (min-width:768px) {
+
+  .hero {
+    background-position: center bottom;
+    height: 100%;
+}
+
+} */
